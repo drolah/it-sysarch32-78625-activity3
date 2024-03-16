@@ -6,6 +6,7 @@
   display: inline-flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgb(226, 247, 253);
 }
 
 .pokemon-card img {
@@ -34,7 +35,9 @@
   height: 40px;
   margin: 5px;
   margin-bottom: 20px;
-}
+  background-color: rgb(226, 247, 253);
+  border: 1px solid;
+} 
 
 .pokemon-types {
   margin-bottom: 10px;
@@ -47,4 +50,12 @@
   margin-right: 5px;
   display: inline-block;
   font-size: 15px;
+}
+
+body {
+  background-color: #260282;
+}
+
+header {
+  color: white;
 }
