@@ -1,10 +1,9 @@
 .pokemon-card {
   border: 1px solid #000000;
-  padding: 30px;
+  padding: 32px;
   margin: 5px;
   width: 300px;
   display: inline-flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
@@ -19,9 +18,6 @@
   text-align: center;
 }
 
-.pokemon-details p {
-  margin: 5px;
-}
 
 .base-container {
   display: flex;
@@ -32,10 +28,12 @@
 .base-container p {
   margin: 5px 0;
 }
+
 .button {
   width: 100px;
   height: 40px;
-  margin: 1px;
+  margin: 5px;
+  margin-bottom: 20px;
 }
 
 .pokemon-types {
@@ -49,9 +47,4 @@
   margin-right: 5px;
   display: inline-block;
   font-size: 15px;
-}
-
-.pokemons {
-  display: inline-block;
-  justify-content: wrap;
 }
