@@ -17,8 +17,8 @@ function Pokedex() {
   };
 
   useEffect(() => {
-    fetchData(selectedLanguage);
-  }, [selectedLanguage]);
+    fetchData();
+  });
 
   return (
     <div>
