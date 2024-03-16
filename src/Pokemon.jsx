@@ -1,7 +1,6 @@
 import React from 'react';
 
-function Pokemon(id, name, types, hp, attack, defense, speed, specialAttack, specialDefense, image) {
-  
+function Pokemon({ id, name, types, hp, attack, defense, speed, specialAttack, specialDefense, image }) {
   return (
     <div className="pokemon-card">
       <img src={image} alt={name} />
